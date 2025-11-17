@@ -6,3 +6,13 @@ html, body {
 canvas {
   display: block;
 }
+
+input[type=checkbox] {
+  accent-color: orange; /* colore della spunta */
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('assets/Quicksand-Medium.ttf') format('truetype');
+  /*font-weight: bold;*/
+}

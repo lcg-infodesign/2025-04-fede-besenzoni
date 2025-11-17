@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+  <button id="returnBtn" onclick="goBack()">← Return to map</button>
+
+  <style>
+  #returnBtn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 18px;
+  background-color: #f6c64c;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 9999;   /* <-- METTI QUESTO */
+  }
+
+    #returnBtn:hover {
+  background-color: #ffdd7a;
+}
+  </style>
+
+
+<script>
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+
+    <script src="sketchDetail.js"></script>
+  </body>
+</html>
